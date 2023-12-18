@@ -16,12 +16,12 @@ char A = 'A';
 
 while (a <= 'z')
 {
-putchar('a');
+putchar(a);
 a++;
 }
-while (A <= 'A')
+while (A <= 'Z')
 {
-putchar('A');
+putchar(A);
 A++;
 }
 putchar('\n');
