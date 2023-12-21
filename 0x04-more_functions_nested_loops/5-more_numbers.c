@@ -14,7 +14,7 @@ for (i = 0; i < 10; i++)
 {
 	for (j = 0; j < 15; j++)
 	{
-		putchar(j);
+		printf("%i", j);
 	}
 	putchar('\n');
 }
