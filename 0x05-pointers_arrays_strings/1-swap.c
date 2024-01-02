@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * swap_int - vrdfiv g ncelscj
+ * swap_int - vrdfiv @g ncelscj
  *
  * @a : variable
  * @b : variable
