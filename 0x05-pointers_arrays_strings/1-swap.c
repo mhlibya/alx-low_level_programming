@@ -2,19 +2,18 @@
 #include <stdio.h>
 
 /**
- * swap_int - vrdfiv @g ncelscj
+ * swap_int - vrdfiv ncelscj
  *
- * @a : variable
- * @b : variable
- * @g : variable
+ * @a: variable
+ * @b: variable
  *
  */
 
 void swap_int(int *a, int *b)
 {
-int g;
+	int g;
 
-g = *a;
-*a = *b;
-*b = g;
+	g = *a;
+	*a = *b;
+	*b = g;
 }

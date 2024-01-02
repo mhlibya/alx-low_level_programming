@@ -5,9 +5,9 @@
 /**
  * _strlen - returns the lengh of string 17 r
  *
- * @s : variable
+ * @s: variable
  *
- * Return : lengh of string 17 r
+ * Return: lengh of string 17 r
  */
 
 int _strlen(char *s)
