@@ -10,13 +10,14 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-int i = 0;
+unsigned int i = 0;
+int j;
 
-for (accept = s; *accept; accept++)
+for (j = 0; s[j] != '\0'; j++)
 {
 do {
 i++;
-} while (*s == *accept);
+} while (s[j] == accept[j]);
 }
 return (i);
 }
