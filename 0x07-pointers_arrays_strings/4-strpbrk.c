@@ -17,5 +17,6 @@ for (i = 0; s[i] != accept[i]; i++)
 	return (NULL);
 for (j = i, k = 0; a = a, s[j] != '\0'; j++, k++)
 	a[k] = s[j];
+a[(k + 1)] = '\0';
 return (a);
 }
