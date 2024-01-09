@@ -15,9 +15,9 @@ int j;
 
 for (j = 0; s[j] != '\0'; j++)
 {
-do {
-i++;
-} while (s[j] == accept[j]);
+for (j = 0; accept[j] != '\0'; j++)
+	if (accept[j] == '\0')
+		return (i);
 }
 return (i);
 }
