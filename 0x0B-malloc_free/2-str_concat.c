@@ -10,12 +10,12 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-int i, j, k;
+int i, j, k, x;
 char *g;
 
 for (j = 0; s1[j] != '\0'; j++)
 	;
-for (; s2[j] != '\0'; j++)
+for (x = 0; s2[x] != '\0'; j++, x++)
 	;
 if (s1 == NULL && s2 == NULL)
 	return (0);
