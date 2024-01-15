@@ -18,7 +18,7 @@ for (j = 0; s1[j] != '\0'; j++)
 for (x = 0; s2[x] != '\0'; j++, x++)
 	;
 if (s1 == NULL && s2 == NULL)
-	return (0);
+	return (NULL);
 else if (s1 == NULL)
 	return (s2);
 else if (s2 == NULL)
