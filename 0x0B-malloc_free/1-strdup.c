@@ -23,5 +23,6 @@ for (i = 0; str[i] != '\0'; i++)
 {
 result[i] = str[i];
 }
+result[i + 1] = '\0';
 return (result);
 }
