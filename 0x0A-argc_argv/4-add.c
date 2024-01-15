@@ -23,6 +23,6 @@ return (1);
 }
 n += atoi(argv[argc]);
 }
-printf("%i", n);
+printf("%d\n", n);
 return (0);
 }
