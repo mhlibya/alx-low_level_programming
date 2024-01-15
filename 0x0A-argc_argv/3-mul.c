@@ -14,7 +14,7 @@ int i;
 if (argc == 3)
 {
 i = atoi(argv[1]) * atoi(argv[2]);
-printf("%d", i);
+printf("%d\n", i);
 }
 else
 {
