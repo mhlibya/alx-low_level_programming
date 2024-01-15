@@ -17,8 +17,12 @@ for (j = 0; s1[j] != '\0'; j++)
 	;
 for (; s2[j] != '\0'; j++)
 	;
-if (s1 == NULL || s2 == NULL)
+if (s1 == NULL && s2 == NULL)
 	return (0);
+else if (s1 == NULL)
+	return (s2);
+else if (s2 == NULL)
+	return (s1);
 g = malloc(sizeof(char) * (j + 1));
 
 for (i = 0; s1[i] != '\0'; i++)
