@@ -1,7 +1,6 @@
-#include <stddef.h>
-
 #ifndef FUNCTION_POINTERS_H
 #define FUNCTION_POINTERS_H
+#include <stddef.h>
 
 int (*get_op_func(char *s))(int, int);
 int op_mod(int a, int b);

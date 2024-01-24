@@ -1,7 +1,12 @@
 #include "function_pointers.h"
 #include <stdlib.h>
 #include <stdio.h>
-/***/
+/**
+ * main - wkrjfg
+ * @argc: wjerfn
+ * @argv: wrifj
+ * Return: soifv
+ */
 int main(int argc, char **argv)
 {
 char *p = (char *)main;
