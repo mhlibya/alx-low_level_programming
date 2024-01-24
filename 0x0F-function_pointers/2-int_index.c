@@ -20,6 +20,6 @@ break;
 }
 }
 if (n == 0)
-	n = -1;
-return (n);
+	i = -1;
+return (i);
 }
