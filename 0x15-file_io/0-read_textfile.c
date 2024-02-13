@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * read_textfiles - ektug
+ * read_textfile - ektug
  * @filename: suoefh
  * @letters: sklurf
  * Return: jhfgjy
